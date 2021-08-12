@@ -1,0 +1,51 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background:lightgray;
+}
+
+a {
+	color:red;
+}
+
+div {
+	color:cornflowerblue;
+}
+
+div.name {
+	color:blue;
+	font-size:100px;
+	text-align:center;
+	font-style:italic;
+
+}
+
+div.project1 {
+	width:300px;
+	height:300px;
+	background-color:lightsalmon;
+	color:lawngreen;
+	font-family:courier;
+	display:inline-block;
+	padding:10px;
+	text-align: center;
+	margin-left:270px;
+
+}
+
+div.project2 {
+	width:300px;
+	height:300px;
+	color:darkblue;
+	background:lawngreen;
+	display:inline-block;
+	font-family:courier;
+	padding:10px;
+	margin-left:40px;
+	text-align: center;
+}
+
+div.project3 {
+	text-align: center;
+}
+
