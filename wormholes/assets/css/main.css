@@ -19,6 +19,25 @@ div.name{
 	text-decoration: underline;
 }
 
+div.layout {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 40px;
+	color: blue;
+	
+  }
+  
+  div.column {
+	width: 400%;
+	background-color: yellow;
+	
+  }
+  
+  img {
+	width: 40%;
+	margin-top: 3cm;
+  }
+
 div.project1{
 	color: darkblue;
 	font-size: 50px;
@@ -54,11 +73,9 @@ div.project5{
 	margin-top: 3cm;
 }
 
-img {
-	width:800px;
-	margin-left: 3cm;
-	margin-top: 3cm;
-}
+
+
+
 
 /* text */
 
@@ -87,3 +104,6 @@ body.text{
 	font-size: 100px;
 	text-align: center;
 	text-decoration: underline;
+}
+
+  
