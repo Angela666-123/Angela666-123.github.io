@@ -1,0 +1,91 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 64px;
+}
+
+@font-face{
+	font-family:'CaslonCPswash';
+	src: url('fonts/CaslonCPswash');
+}
+
+@font-face{
+	font-family: '方正粗黑宋简体';
+	src: url('fonts/方正粗黑宋简体')
+}
+a {
+	color:red;
+}
+
+div.title{
+	font-size:100px;
+	text-align:left;
+    font-family:'CaslonCPswash';
+	margin-left: 3cm;
+}
+
+div.title2{
+	font-size:100px;
+	text-align:left;
+    font-family:'CaslonCPswash';
+	margin-left: 3cm;
+}
+
+div.title3{
+	font-size:100px;
+	text-align:left;
+    font-family:'CaslonCPswash';
+	margin-left: 3cm;
+}
+
+img {
+	width: 700px;
+	margin-left: 5cm;
+}
+
+div.link1{
+	text-align: center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+}
+
+div.link2{
+	text-align: center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+}
+
+div.link3{
+	text-align: center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+}
+
+div.link4{
+	text-align: center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+}
+
+.homepages1{
+	margin-top: 20mm;
+	text-align: center;
+
+}
+
+.header{
+	font-family:'方正粗黑宋简体';
+	font-size: 70px;
+	text-align: center;
+	margin-top: 1cm;
+}
+
+.p{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 1cm;
+
+}
