@@ -1,6 +1,11 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 64px;
+	font-size: 20px;
+	background-color: white;
+	background-image: url("background/Health.jpg");
+	background-size:contain;
+	background-position: top;
+
 }
 
 @font-face{
@@ -39,7 +44,7 @@ div.title3{
 
 img {
 	width: 700px;
-	margin-left: 5cm;
+
 }
 
 div.link1{
@@ -63,18 +68,6 @@ div.link3{
 	margin-top: 1cm;
 }
 
-div.link4{
-	text-align: center;
-	font-size: 50px;
-	font-family: '方正粗黑宋简体';
-	margin-top: 1cm;
-}
-
-.homepages1{
-	margin-top: 20mm;
-	text-align: center;
-
-}
 
 .header{
 	font-family:'方正粗黑宋简体';
@@ -83,9 +76,631 @@ div.link4{
 	margin-top: 1cm;
 }
 
-.p{
-	font-size: 18px;
+div.essayhome{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 40px;
+	border-radius: 20px;
+	line-height: 40px;
+
+}
+
+.header{
+	background-color: white;
+}
+
+.home{
+	background-color: white;
+	font-size: 30px;
 	text-align: center;
+	margin-left: 5cm;
+	margin-right: 5cm;
+
+}
+
+.homepages1{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+}
+
+.link1{
+	background-color: white;
+}
+
+.link2{
+	background-color: white;
+}
+
+.link3{
+	background-color: white;
+}
+
+
+/* General */
+
+/* Home */
+
+/* Life */
+
+body.Lifepage{
+	background-color:yellow rgb(83, 109, 34);
+	padding: 20px;
+}
+
+div.Life_title{
+	text-align: center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
 	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: indianred;
+}
+
+div.Life_header{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 30px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 1cm;
+
+}
+
+div.essay1{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(206, 53, 78);
+}
+
+div.balance{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+}
+
+div.Life_header2{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+div.essay2{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(206, 53, 78);
+}
+
+
+div.Life_header3{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+div.essay3{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(206, 53, 78);
+}
+
+div.Life_header4{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+div.essay4{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(206, 53, 78)k;
+}
+
+div.sleep_time{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+}
+
+div.Life_header5{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+div.essay5{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(206, 53, 78);
+}
+
+div.Life_header6{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+div.essay6{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+}
+
+
+
+/* Article */
+body.Articlepage{
+	background-color:yellow rgb(83, 109, 34);
+	padding: 20px;
+}
+div.Article_title{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: indianred;
+}
+
+div.Article_inf{
+	background-color: lightblue;
+	text-align:left;
+	margin-top: 20mm;
+	font-size: 30px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 1cm;
+
+}
+div.Article_essay1{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Article_header2{
+	background-color: rgb(98, 194, 85);
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+
+div.Article_essay2{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Article_header3{
+	background-color: rgb(98, 194, 85);
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+
+div.Article_essay3{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Article_header4{
+	background-color: rgb(98, 194, 85);
+	text-align: center;
+	margin-top: 20mm;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-bottom: 10mm;
+}
+
+div.Article_essay4{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+.box{
+	width:300px;
+	height:300px;
+	background-color: skyblue;
+	transition: 2s;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box:hover{
+	background-color: blue;
+	border-radius: 100%;
+}
+div.link4{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	background-color: rgb(124, 45, 139);
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+/* Workout */
+
+body.workoutpage{
+	background-color:yellow rgb(83, 109, 34);
+	padding: 20px;
+}
+div.Athome_title{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: indianred;
+}
+div.Article_1{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+}
+
+div.Workout_start{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header1{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout1{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P1{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header2{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout2{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P2{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header3{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout3{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P3{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header4{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout4{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P4{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header5{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout5{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P5{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header6{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout6{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P6{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header7{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout7{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P7{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header8{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout8{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P8{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header9{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout9{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P9{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+div.Workout_header10{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	background-color: rgb(223, 214, 98);
+}
+div.workout10{
+	background-color: white;
+	text-align: center;
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+}
+
+div.Workout_P10{
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	line-height: 30px;
+	border-bottom:4px solid rgb(53, 119, 206)
+}
+
+.box{
+	width:300px;
+	height:300px;
+	background-color: skyblue;
+	transition: 2s;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box:hover{
+	background-color: blue;
+	border-radius: 100%;
+}
+
+div.link5{
+	text-align:center;
+	font-size: 50px;
+	font-family: '方正粗黑宋简体';
+	margin-top: 1cm;
+	background-color: rgb(124, 45, 139);
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
